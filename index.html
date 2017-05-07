@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+<title>Secret Agent Supply Inc.</title>
+<link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+
+    <style>
+
+    body {
+      font-size: 18px;
+      font-family: Helvetica, sans-serif;
+      background: black;
+      text-align: center;
+      width: 100%;
+      }
+
+    .container {
+      width: 960px;
+      border: 1px solid black;
+      margin:auto;
+    }
+    .logo {
+    color: white;
+    margin-top: 0.66rem;
+    margin-bottom: 0.66rem;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .logo img {
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+    .banner {
+      height: 25rem;
+      width: 100%;
+      overflow: visible;
+      background: url("file:///Users/scotthauser/Desktop/projects/SecretAgentSupply/resources/images/moto.jpeg");
+      background-repeat: no-repeat;
+      z-index: 2;
+    }
+.banner .text-box {
+  display: inline-block;
+  margin-top: 9rem;
+  margin-left: 0;
+  width: 20rem;
+  height: 10rem;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+.banner .text-box h1 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+.banner .text-box h2 {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+    .flex-container {
+      display: flex;
+      background-color: white;
+      width: 100%;
+      height: auto;
+    }
+    .flex-container .banner {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 25rem;
+      width: 100%;
+      overflow: visible;
+      background: url("file:///Users/scotthauser/Desktop/projects/SecretAgentSupply/resources/images/moto.jpeg");
+      background-repeat: no-repeat;
+    }
+.flex-container.banner .text-box {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 9rem;
+  margin-left: 0;
+  width: 20rem;
+  height: auto;
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}
+.banner .text-box h1 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+.banner .text-box h2 {
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+    .flex-container .product-strip {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      background-color: firebrick;
+      color: white;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+    }
+    .flex-container .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: auto;
+      width: 30%;
+      align-items: center;
+      margin-top: 3rem;
+      border: 4px solid black;
+    }
+    .flex-container .item img {
+      display: block;
+      height: 9em;
+      width: 8em;
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+    .flex-container .item p {
+      display: inline-block;
+      width: 100%;
+      background-color: black;
+      color: white;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .flex-container .hours {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 35%;
+      margin: auto;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+      text-align: left;
+    }
+    .flex-container .hours span {
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+      background-color: black;
+      color: white;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .flex-container .hours p {
+      text-align: left;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      height: 5rem;
+    }
+    footer h1 {
+      color: white;
+      text-align: left;
+    }
+    </style>
+
+  </head>
+
+  <body>
+    
+    <div class="container">
+
+<div class="logo"><img src="file:///Users/scotthauser/Desktop/projects/SecretAgentSupply/resources/images/logo.png">Secret Agent Supply Inc.</div>
+
+<div class="flex-container">
+<div class="banner">
+  <div class="text-box">
+  <h2>New Arrivals</h2>
+  <h1>Sports Bikes and Motorcycles</h1>
+</div>
+</div>
+</div>
+
+<div class="flex-container">
+  <div class="product-strip">
+  <span>Eyewear</span>
+  <span>Apparel</span>
+  <span>Gadgets</span>
+  <span>Vehicles</span>
+  <span>Classes</span>
+  <span>Contact</span>
+</div>
+</div>
+
+<div class="flex-container">
+
+  <div class="item">
+    <img src="file:///Users/scotthauser/Desktop/projects/SecretAgentSupply/resources/images/pen.png">
+    <p>Exploding Pen</p>
+  </div>
+  <div class="item">
+    <img src="file:///Users/scotthauser/Desktop/projects/SecretAgentSupply/resources/images/watch.png">
+    <p>Cellular Watch</p>
+  </div>
+  <div class="item">
+    <img src="file:///Users/scotthauser/Desktop/projects/SecretAgentSupply/resources/images/glasses.png">
+    <p>Thermal Glasses</p>
+  </div>
+
+</div>
+<div class="flex-container">
+
+<div class="hours">
+  <span class="highlight">Locations</span>
+  <p>-47.XXXXX.XXXXX.XXXXX</p>
+  </div>
+  <div class="hours">
+    <span class="highlight">Hours</span>
+    <p>0800 - 1800</p>
+    </div>
+</div>
+
+<footer><h1>&copy; Secret Agent Supply Inc.</h1>
+</footer>
+
+    </div>
+  </body>
+
+</html>
